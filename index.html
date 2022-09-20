@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+</head>
+<body>
+   <div class="nav_bar">
+    <ul>
+        <li><a class="checked" href="/" translate="no">Home</a></li>
+       
+        <li><a href="/fotos">Fotos</a></li>
+        
+        <li><a href="/redes-socias">Socias</a></li>
+
+        <li><a href="/inscrever">Inscrição</a></li>
+
+
+    </ul>
+
+   </div>
+   <br>
+   <div class="name_title">
+
+    <h2>Escola Futebol Judá</h2>
+   </div>
+
+   <div class="content">
+    <p>Somos a <strong>Escola Futebol Judá.</strong> <br> Aqui não ensinamos somente futebol  aqui ensinamos disciplina</p>
+   </div>
+</body>
+</html>
+<style>
+    body{
+    font-family: monospace;
+    font-size: 15pt;
+    background: #002945;
+    color: #fff;
+}
+.nav_bar{
+    margin-left: 400px;
+}
+.nav_bar ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+.nav_bar li{
+    display: inline;
+    float: left;
+}
+a{
+    display: block;
+    background: none;
+    text-decoration: none;
+    padding: 9px;
+    color: #fff;
+}
+li:first-child{
+    background: #63CC95;
+}
+.name_title h2{
+    color: #63CC95;
+    text-transform: uppercase;
+}
+.name_title{
+    margin: 10px;
+}
+.content{
+    top:50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    position: absolute;
+    
+}
+p{
+    font-size: 19px;
+}
+strong{
+    color: #63CC95;
+    font-size: 20pt;
+    text-transform: uppercase;
+}
+@media (min-width:320px){
+    strong{
+        font-size: 15pt;
+    }
+.nav_bar{
+    margin-left: 20px;
+}
+    a{
+        padding: 5px;
+        font-size: 15px;
+    }
+}@media (min-width:375px){
+    strong{
+        font-size: 15pt;
+    }
+.nav_bar{
+    margin-left: 15px;
+}
+    a{
+        padding: 7px;
+        font-size: 19px;
+    }
+}
+@media (min-width:425px){
+    strong{
+        font-size: 15pt;
+    }
+.nav_bar{
+    margin-left: 35px;
+}
+    a{
+        padding: 5px;
+        font-size: 19px;
+    }
+}
+@media (min-width:768px){
+    strong{
+        font-size: 20pt;
+    }
+.nav_bar{
+    margin-left: 400px;
+}
+    a{
+        padding: 9px;
+        font-size: 21px;
+    }
+}
+</style>

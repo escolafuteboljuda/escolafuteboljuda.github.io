@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fotos</title>
+</head>
+<body translate="no">
+    <div class="nav_bar">
+        <ul>
+            <li><a href="/" translate="no">Home</a></li>
+           
+            <li><a  class="checked" href="/fotos">Fotos</a></li>
+            
+            <li><a href="/redes-socias">Socias</a></li>
+    
+            <li><a href="/inscrever">incrição</a></li>
+    
+    
+        </ul>
+    
+       </div>
+       <br>
+       <div class="name_title">
+    
+        <h2>Escola Futebol Judá</h2>
+       </div>
+    
+       <div class="content">
+        <div>
+            <img src="/img/text.jpg" alt="">
+        </div>
+        <div>
+            <img src="/img/277920451_728972335124431_2125330580784149096_n.jpg" alt="">
+        </div>
+        <div>
+            <img src="/img/277925297_702713710917457_6228495063389839417_n.jpg" alt="">
+        </div>
+        <div>
+            <img src="/img/277937284_1528048894298452_1869193476507145796_n.jpg" alt="">
+        </div>
+        <div>
+            <img src="/img/277962315_979212816119615_5418808470823381319_n.jpg" alt="">
+        </div>
+        <div>
+            <img src="/img/277967979_1126490348191710_8341986948733264412_n (1).jpg" alt="">
+        </div>
+        <div>
+            <img src="/img/277968848_343693451065953_2464153277789986449_n.jpg" alt="">
+        </div>
+        <div>
+            <img src="/img/279475898_698379301502093_224770840623522122_n.jpg" alt="">
+        </div>
+        <div>
+            <img src="/img/279500654_1885066731683131_8891137794177513407_n.jpg" alt="">
+        </div>
+        <div>
+            <img src="/img/279509727_1173251526768095_7357965041442062261_n.jpg" alt="">
+        </div>
+        <div>
+            <img src="/img/279559810_304261428554309_9057583609116530194_n.jpg" alt="">
+        </div>
+        <div>
+            <img src="/img/279580984_551606543028330_9003415847513734598_n.jpg" alt="">
+        </div>
+        <div>
+            <img src="/img/279586746_396183505705756_8852293216396224772_n.jpg" alt="">
+        </div>
+        <div>
+            <img src="/img/279850928_557350189108221_4297805292612099965_n.jpg" alt="">
+        </div>
+
+
+       </div>
+</body>
+<style>
+     body{
+    font-family: monospace;
+    font-size: 15pt;
+    background: #002945;
+    color: #fff;
+}
+.nav_bar{
+    margin-left: 400px;
+}
+.nav_bar ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+.nav_bar li{
+    display: inline;
+    float: left;
+}
+a{
+    display: block;
+    background: none;
+    text-decoration: none;
+    padding: 9px;
+    color: #fff;
+}
+.checked{
+    background: #63CC95;
+}
+.name_title h2{
+    color: #63CC95;
+    text-transform: uppercase;
+}
+.name_title{
+    margin: 10px;
+}
+.content{
+ width: 100%;
+ display: grid;
+ grid-template-columns: 1fr 1fr 1fr;
+}
+.content div{
+    margin-top: 20px;
+    /* From https://css.glass */
+
+}
+img{
+    width: 350px;
+    opacity: 1;
+}
+@media (min-width:320px){
+    .nav_bar{
+        margin-left: 50px;
+    }
+    a{
+        padding: 5px;
+        font-size: 13px;
+    }
+   .content{
+    grid-template-columns: 1fr;
+   }
+    .content div{
+        text-align: center;
+        width: 270px;
+        height: 270px;
+        margin-left: 20px;
+        background: rgba(13, 19, 28, 1);
+border-radius: 16px;
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(5px);
+-webkit-backdrop-filter: blur(5px);
+border: 1px solid rgba(13, 19, 28, 0.3);
+
+    }
+    img{
+        width: 250px;
+    }
+}
+@media (min-width:375px){
+    .nav_bar{
+        margin-left: 60px;
+    }
+    a{
+        padding: 5px;
+        font-size: 13px;
+    }
+   .content{
+    grid-template-columns: 1fr 1fr;
+   }
+    .content div{
+        width: 300px;
+        height: 300px;
+        margin-left: 80px;
+
+    }
+    img{
+        width: 250px;
+    }
+}
+@media (min-width:425px){
+    .nav_bar{
+        margin-left: 70px;
+    }
+    a{
+        padding: 5px;
+        font-size: 18px;
+    }
+   .content{
+    grid-template-columns: 1fr;
+   }
+    .content div{
+        width: 350px;
+        height: 350px;
+        margin-left: 40px;
+
+    }
+    img{
+        width: 300px;
+    }
+}
+@media (min-width:768px){
+    .nav_bar{
+        margin-left: 450px;
+    }
+    a{
+        padding: 5px;
+        font-size: 20px;
+    }
+   .content{
+    grid-template-columns: 1fr 1fr 1fr;
+   }
+
+    .content div{
+        width: 350px;
+        height: 350px;
+
+
+    }
+    img{
+        width: 300px;
+    }
+}
+</style>
+</html>

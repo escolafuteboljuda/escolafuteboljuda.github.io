@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inscrição</title>
+</head>
+<body>
+    <div class="nav_bar">
+        <ul>
+            <li><a  href="/" translate="no">Home</a></li>
+           
+            <li><a href="/fotos">Fotos</a></li>
+            
+            <li><a href="/redes-socias">Socias</a></li>
+    
+            <li><a class="checked" href="/inscrição">Inscrição</a></li>
+    
+    
+        </ul>
+    
+       </div>
+       <br>
+       <div class="title">
+    
+        <h2>Escola Futebol Judá</h2>
+       </div>
+       <div class="content">
+        <span>Entre em contacto connosco e damos-lhe mais informações sobre horarios e local de treinamento</span>
+        <form action="https://formsubmit.co/escolafuteboljuda@gmail.com" method="POST" accept-charset="utf-8" class="contacto">
+           
+            <input type="text" id="nome" class="nome" placeholder="Seu nome" translate="no"  name="nome" required>
+            <input type="text" id="morrada" class="morrada" placeholder="Sua Morrada" name="Morrada" required>
+            <input type="number" id="idade" class="idade" placeholder="Sua idade" name="idade" required>
+            <input type="email" id="email" class="email" placeholder="Seu email" name="email" required>
+            <input type="number" name="numero"  id="num" class="numero" placeholder="Seu numero de telefone">
+            <br>
+            <br>
+            <input type="submit" value="enviar" class="btn" translate="no" onclick="verifi()">
+    </form>
+
+       </div>
+</body>
+<style>
+     body{
+    font-family: monospace;
+    font-size: 15pt;
+    background: #002945;
+    color: #fff;
+}
+.nav_bar{
+    margin-left: 400px;
+}
+.nav_bar ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+.nav_bar li{
+    display: inline;
+    float: left;
+}
+a{
+    display: block;
+    background: none;
+    text-decoration: none;
+    padding: 9px;
+    color: #fff;
+}
+.checked{
+    background: #63CC95;
+}
+.title h2{
+    color: #63CC95;
+    text-transform: uppercase;
+}
+.title{
+    margin: 10px;
+}
+.content{
+    text-align: center;
+    width: 100%;
+}
+form{
+    width: 320px;
+    margin-left: 500px;
+}
+.nome,.email,.numero,.idade,.morrada{
+    padding: 11px;
+    width: 300px;
+    background: none;
+    outline: none;
+    border: 2px solid #B9D4A0;
+    margin-top: 10px;
+    border-radius: 10px;
+    color: #fff;
+}
+.btn{
+    padding: 9px;
+    width: 310px;
+    background: #B9D4A0;
+    border: 1px solid #B9D4A0;
+    border-radius: 10px;
+}
+
+@media (min-width:320px){
+    .nav_bar{
+        margin-left: 3px;
+    }
+    a{
+        padding: 5px;
+        font-size: 13px;
+    }
+    form{
+        width: 250px;
+        height: 250px;
+        margin-left: 2px;
+    }
+    .nome,.email,.numero,.morrada,.idade{
+        width: 250px;
+        margin-left: 5px;
+    }
+    .btn{
+        width: 290px;
+    }
+}
+@media (min-width:375px){
+    .nav_bar{
+        margin-left: 20px;
+    }
+    a{
+        padding: 5px;
+        font-size: 15px;
+    }
+    form{
+        width: 250px;
+        height: 250px;
+        margin-left: 30px;
+    }
+    .nome,.email,.numero,.morrada,.idade{
+        width: 250px;
+        margin-left: 5px;
+    }
+    .btn{
+        width: 290px;
+    }
+}
+@media (min-width:420px){
+    .nav_bar{
+        margin-left: 25px;
+    }
+    a{
+        padding: 5px;
+        font-size: 16px;
+    }
+    form{
+        width: 250px;
+        height: 250px;
+        margin-left: 50px;
+    }
+    .nome,.email,.numero,.morrada,.idade{
+        width: 250px;
+        margin-left: 5px;
+    }
+    .btn{
+        width: 290px;
+    }
+}
+@media (min-width:768px){
+    .nav_bar{
+        margin-left: 400px;
+    }
+    a{
+        padding: 9px;
+        font-size: 21px;
+    }
+    form{
+        width: 400px;
+        height: 200px;
+        margin-left: 450px;
+    }
+    .nome,.email,.numero,.morrada,.idade{
+        width: 300px;
+        margin-left: 5px;
+    }
+    .btn{
+        width: 290px;
+    }
+}
+
+</style>
+</html>
