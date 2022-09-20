@@ -13,13 +13,13 @@ app.get('/', (req,res) => {
     res.sendFile(__dirname + 'index.html')
 })
 app.get('/fotos',(req,res) => {
-    res.sendFile(__dirname + 'pic.html')
+    res.sendFile(__dirname + '/pic.html')
 })
 app.get('/redes-socias', (req,res) => {
-    res.sendFile(__dirname + 'socias.html')
+    res.sendFile(__dirname + '/socias.html')
 })
 app.get('/inscrever', (req,res) => {
-    res.sendFile(__dirname + 'inscricao.html')
+    res.sendFile(__dirname + '/inscricao.html')
 })
 
 
